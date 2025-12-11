@@ -1,0 +1,52 @@
+ body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.game-board {
+    display: inline-block;
+    border: 2px solid #1782da;
+}
+
+h1{
+    color:red;
+    margin:50px;
+    margin-left:-5%;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #1da1c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    background-color:rgb(77, 134, 151);
+}
+
+.cell:hover {
+    background-color: #22848b;
+}
+
+ #reset-button{
+   text-decoration: none;
+   background-color:rgb(233, 16, 197);
+   color:white;
+   padding:5px 10px;
+   margin:10px 10px;
+   display: inline-block;
+   border-radius: 10px;
+   margin-left: 3%;
+   font-size: 18px;
+   transition: .4s ease;
+   
+  
+}
+#reset-button :hover{
+   background-color: rgb(190, 73, 73);
+}
